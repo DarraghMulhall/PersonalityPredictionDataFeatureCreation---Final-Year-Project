@@ -84,9 +84,27 @@ public class POSTagging {
     }
 
 
+    public static HashMap<String, Object> numDistinctTagsPerUser(HashMap<String, Object> map){
+        HashMap<String, Object> distinctTagCount = new HashMap<>();
+
+        for (Map.Entry<String, Object> entry: map.entrySet()) {
+            int count = 0;
+            LinkedHashMap<String, Double> tagMap = (LinkedHashMap<String, Double>) entry.getValue();
+            for (Map.Entry<String, Double> entry2: tagMap.entrySet()){
+                if(entry2.getValue()!=0.0){
+                    count++;
+                }
+            }
+            distinctTagCount.put(entry.getKey(), (Object) count);
+        }
+        return distinctTagCount;
+    }
+
+
+
     public static void main(String[] args){
 
-        HashMap<String, Object> map = tagging();
+
 
 //        Iterator it = map.entrySet().iterator();
 //        while (it.hasNext()) {
@@ -105,11 +123,14 @@ public class POSTagging {
 //        }
 
         StringBuffer result = new StringBuffer();
-        for (int i = 0; i < posTags.length; i++) {
-            result.append(","+posTags[i]);
-            //result.append( optional separator );
-        }
-        String newHeader = result.toString();
-        CSVMaker.writeToCSV("mypersonality_final.csv", "pos.csv", map, newHeader);
+        //result.append( optional separator );
+//        for (int i = 0; i < posTags.length; i++) {
+//            result.append("," + posTags[i]);
+//        }
+//        String newHeader = result.toString();
+
+        HashMap<String, Object> map = tagging();
+        HashMap<String, Object> tagMap = numDistinctTagsPerUser(map);
+        CSVMaker.writeToCSV("pos.csv", "features.csv", tagMap, ",DISTINCT_TAGS");
     }
 }

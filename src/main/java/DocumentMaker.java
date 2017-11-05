@@ -14,18 +14,19 @@ public class DocumentMaker {
     public static ArrayList<String> users;
 
 
-    public static HashMap<String, ArrayList<String>> getUserStatuses(){
+    public static HashMap<String, ArrayList<String>> getUserStatuses() {
         HashMap<String, ArrayList<String>> userStatuses = new HashMap<>();
-        Iterable<CSVRecord> rows = CSVMaker.getRowsFromCSV("mypersonality_final.csv");
-        for (CSVRecord record : rows) {
-            String user = record.get("#AUTHID");
-            if(!userStatuses.containsKey(user)){
-                userStatuses.put(user, new ArrayList<String>());
-                userStatuses.get(user).add(record.get("STATUS"));
+        Iterable<CSVRecord> records = CSVMaker.getRowsFromCSV("mypersonality_final.csv");
+        for (CSVRecord record : records) {
+            String status = record.get("STATUS");
+            if (status.charAt(status.length() - 1) != '.' && status.charAt(status.length() - 1) != '!' && status.charAt(status.length() - 1) != '?') {
+                status += ".";
             }
-            else{
-                userStatuses.get(user).add(record.get("STATUS"));
+
+            if(!userStatuses.containsKey(record.get("#AUTHID"))){
+                userStatuses.put(record.get("#AUTHID"), new ArrayList<String>());
             }
+            userStatuses.get(record.get("#AUTHID")).add(status);
         }
         return userStatuses;
     }

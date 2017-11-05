@@ -4,7 +4,7 @@ import org.apache.commons.csv.CSVRecord;
 import java.io.*;
 import java.util.*;
 
-public class CSVMaker {
+public class CSVMaker<T> {
 
     public static HashMap<String, List<String>> uniqueRowsFromCSV(String csvFile){
         HashMap<String, List<String>> rows = new HashMap();
@@ -17,12 +17,15 @@ public class CSVMaker {
                 users.add(user);
                 Iterator it = record.iterator();
 
-                //skipping user and status
+                //skipping user field
                 it.next();
-                it.next();
+                if(record.isMapped("STATUS")){
+                    it.next();
+                }
 
                 List<String> fields = new ArrayList<String>();
                 while(it.hasNext()){
+
                     fields.add((String) it.next());
                 }
                 rows.put(user, fields);
@@ -80,7 +83,7 @@ public class CSVMaker {
 
             String header = getHeader(inputCSV)+newHeaderCols;
             Iterable<CSVRecord> records = getRowsFromCSV(inputCSV);
-
+            System.out.println(header);
 
             //HashMap<String, Ob> userValences = anewUserValence();
 
@@ -94,14 +97,13 @@ public class CSVMaker {
 
             Iterator it = rows.entrySet().iterator();
 
-
-
             while (it.hasNext()) {
                 Map.Entry pair = (Map.Entry)it.next();
                 String str = "";
                 str += pair.getKey();
 
                 List<String> values = (List) pair.getValue();
+                System.out.println(values.size());
                 for(int i=0; i<values.size(); i++){
                     str+= ","+values.get(i);
                 }
@@ -115,9 +117,8 @@ public class CSVMaker {
                     }
                 }
                 else {
-                    str += newData.get(pair.getKey());
+                    str += ","+newData.get(pair.getKey());
                 }
-
 
                 out.write(str);
                 out.newLine();
