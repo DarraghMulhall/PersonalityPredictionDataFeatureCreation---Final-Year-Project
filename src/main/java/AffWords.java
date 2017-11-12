@@ -21,6 +21,7 @@ public class AffWords {
                 line = br.readLine();
 
             }
+            br.close();
         } catch(Exception e) {
             e.printStackTrace();
         }
@@ -126,7 +127,7 @@ public class AffWords {
         HashMap<String, Object> zMap = zScores(map);
 
 
-        CSVMaker.writeToCSV("valence.csv", "valence2.csv", zMap, ",Z-score_Valence");
+        CSVMaker.writeToCSV("mypersonality_final.csv", "valence.csv", map, ",Valence");
 
     }
 

@@ -29,7 +29,7 @@ public class POSTagging {
 
         File dir = new File("user_statuses");
         File[] directoryListing = dir.listFiles();
-        HashMap<String, ArrayList<String>> userStatuses = DocumentMaker.getUserStatuses();
+        HashMap<String, Integer> userStatusCount = DocumentMaker.getUserStatusCount();
 
         for (File file : directoryListing) {
             String statusText = "";
@@ -51,7 +51,7 @@ public class POSTagging {
             String userTags[] = tagger.tag(words);
             LinkedHashMap<String, Double> tagCounts = new LinkedHashMap<>();
 
-            int userStatusNum = userStatuses.get(user).size();
+            int userStatusNum = userStatusCount.get(user);
 
 
             for (int i = 0; i < posTags.length; i++) {
