@@ -76,7 +76,7 @@ public class CSVMaker<T> {
     }
 
 
-    public static void writeToCSV(String inputCSV, String outputCSV, HashMap<String, Object> newData, String newHeaderCols) {
+    public static void writeToCSV(String inputCSV, String outputCSV, double[][] newData, String newHeaderCols) {
 
         try {
             BufferedWriter out = null;
@@ -97,32 +97,27 @@ public class CSVMaker<T> {
 
             Iterator it = rows.entrySet().iterator();
 
+            int userNum = 0;
             while (it.hasNext()) {
                 Map.Entry pair = (Map.Entry)it.next();
                 String str = "";
                 str += pair.getKey();
 
                 List<String> values = (List) pair.getValue();
-                System.out.println(values.size());
                 for(int i=0; i<values.size(); i++){
                     str+= ","+values.get(i);
                 }
 
-                if(newData.get(pair.getKey()) instanceof LinkedHashMap){
-                    Iterator it2 = ((LinkedHashMap) newData.get(pair.getKey())).entrySet().iterator();
-                    while(it2.hasNext()){
-                        Map.Entry pair2 = (Map.Entry)it2.next();
-                        str+= ","+pair2.getValue();
-                        it2.remove();
-                    }
+
+                for(int j=0; j<newData[userNum].length; j++){
+                    str+=","+newData[userNum][j];
                 }
-                else {
-                    str += ","+newData.get(pair.getKey());
-                }
+
 
                 out.write(str);
                 out.newLine();
                 it.remove(); // avoids a ConcurrentModificationException
+                userNum++;
             }
             out.close();
 

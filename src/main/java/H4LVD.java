@@ -87,17 +87,16 @@ public class H4LVD {
     }
 
 
-    public static HashMap<String, Object> userCategories(){
+    public static double[][] userCategories(){
         HashMap<String, String[]> wordsAndCategories = wordWithCategories();
-        HashMap<String, Object> allUserH4Counts = new HashMap<>();
 
         File dir = new File("user_statuses");
         File[] directoryListing = dir.listFiles();
+        String[] categories = getCategories();
+        double[][] values = new double[directoryListing.length][categories.length];
         HashMap<String, Integer> userStatusCount = DocumentMaker.getUserStatusCount();
 
-
-        String[] categories = getCategories();
-
+        int userNum = 0;
         for (File file : directoryListing) {
             LinkedHashMap<String, Double> userH4Counts = new LinkedHashMap<>();
 
@@ -123,49 +122,27 @@ public class H4LVD {
 
             String[] words = statusText.split(" ");
 
-            String temp = "";
+            String category = "";
 
             for(int i=0; i<words.length; i++){
                 if(wordsAndCategories.containsKey(words[i].toUpperCase())){
                     for(int j=0; j<wordsAndCategories.get(words[i].toUpperCase()).length; j++){
-                        temp = wordsAndCategories.get(words[i].toUpperCase())[j];
-                        if(Arrays.asList(categories).indexOf(temp) > -1)
-                            userH4Counts.put(temp, Double.valueOf(df.format((userH4Counts.get(temp)
-                                    + additive))));
-
+                        category = wordsAndCategories.get(words[i].toUpperCase())[j];
+                        int index = Arrays.asList(categories).indexOf(category);
+                        if(index > -1)
+                            values[userNum][index] += Double.valueOf(df.format(additive));
                     }
                 }
             }
-            System.out.println(user+" "+userH4Counts.get("Pos"));
-
-            allUserH4Counts.put(user, (Object)userH4Counts);
-
+            userNum++;
         }
-        return allUserH4Counts;
-
-
+        return values;
     }
-
-
-    public static void zScoreConverter(HashMap<String, Object> map, String[] categories){
-        for(int i=0; i<categories.length; i++){
-
-        }
-    }
-
-
 
 
     public static void main(String[] args){
-        HashMap<String, Object> map = userCategories();
+        double[][] values = userCategories();
 
-//        for(Map.Entry<String, Object> entry : map.entrySet()){
-//            System.out.print(entry.getKey() + ":   ");
-//            for(Map.Entry<String, Object> entry2 : ((HashMap) entry.getValue()).entrySet()){
-//                System.out.print(entry2.getKey()+" "+entry2.getValue()+"     ");
-//            }
-//            System.out.println();
-//        }
 
         HashMap<String, String[]> map2 = wordWithCategories();
         BufferedReader br = null;
@@ -177,15 +154,17 @@ public class H4LVD {
 
         String[] categories = getCategories();
 
+        //making new additions to csv header
         StringBuffer result = new StringBuffer();
         for (int i = 0; i < categories.length; i++) {
             result.append("," + categories[i]);
         }
         String newHeader = result.toString();
 
+        double[][] zScoreVals = ZScores.zScores(values);
 
 
-        CSVMaker.writeToCSV("pos.csv", "h4_pos.csv", map, newHeader);
+        CSVMaker.writeToCSV("mypersonality_final.csv", "h4_z.csv", zScoreVals, newHeader);
 
 
 
