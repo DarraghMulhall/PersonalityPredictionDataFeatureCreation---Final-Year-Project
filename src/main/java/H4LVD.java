@@ -66,9 +66,6 @@ public class H4LVD {
                     indexOfStopper = Arrays.asList(tokens).indexOf("|");
                 }
 
-                System.out.println(indexOfStopper +" "+line);
-
-
                 String[] categoriesForWord =  new String[indexOfStopper-2];
                 //skip first 2 words as they are not categories and last word which is "|"
 
@@ -98,6 +95,9 @@ public class H4LVD {
 
         int userNum = 0;
         for (File file : directoryListing) {
+
+
+
             LinkedHashMap<String, Double> userH4Counts = new LinkedHashMap<>();
 
             for(int i=0; i<categories.length; i++){
@@ -114,8 +114,11 @@ public class H4LVD {
 
             int pos = file.getName().lastIndexOf(".");
             String user = file.getName().substring(0, pos);
-            int userStatusNum = userStatusCount.get(user);
 
+            System.out.println(user);
+
+            int userStatusNum = userStatusCount.get(user);
+            System.out.println(file.getName() + " "+userStatusNum);
             double additive = 1.0/userStatusNum;
             DecimalFormat df = new DecimalFormat("#.##");
             additive = Double.valueOf(df.format(additive));
@@ -145,6 +148,9 @@ public class H4LVD {
 
 
         HashMap<String, String[]> map2 = wordWithCategories();
+
+
+
         BufferedReader br = null;
         try {
             br = new BufferedReader(new FileReader("h4lvd.txt"));
@@ -163,20 +169,15 @@ public class H4LVD {
 
         double[][] zScoreVals = ZScores.zScores(values);
 
+        System.out.println(newHeader);
+        for(int i=0; i<values.length; i++){
+            for(int j=0; j<values[i].length; j++){
+                System.out.print(values[i][j] + " ");
+            }
+            System.out.println("\n");
+        }
 
-        CSVMaker.writeToCSV("mypersonality_final.csv", "h4_z.csv", zScoreVals, newHeader);
 
-
-
-
+        CSVMaker.writeToCSV("pos.csv", "h4lvd.csv", zScoreVals, newHeader);
     }
-
-//for each category
-    //for each user map
-        //Hashmap<user, category_count>
-        //make zcore map out of this
-        //put z-score value into user nested hashmap at category key
-
-
-
 }

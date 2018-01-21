@@ -2,19 +2,266 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8da8a6a6-53a4-4710-8822-ba47bb256546" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ZScores.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/h4_pos.csv" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/MiscFeatures.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pos.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pos2.csv" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/AffWords.class" afterPath="$PROJECT_DIR$/target/classes/AffWords.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/CSVMaker.class" afterPath="$PROJECT_DIR$/target/classes/CSVMaker.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/DocumentMaker.class" afterPath="$PROJECT_DIR$/target/classes/DocumentMaker.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/H4LVD.class" afterPath="$PROJECT_DIR$/target/classes/H4LVD.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/POSTagging.class" afterPath="$PROJECT_DIR$/target/classes/POSTagging.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ZScores.class" afterPath="$PROJECT_DIR$/target/classes/ZScores.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/fyp.iml" afterPath="$PROJECT_DIR$/.idea/fyp.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/h4.csv" afterPath="$PROJECT_DIR$/h4.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pos.csv" afterPath="$PROJECT_DIR$/pos.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/h4_z.csv" afterPath="$PROJECT_DIR$/h4_z.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mypersonality_final.csv" afterPath="$PROJECT_DIR$/mypersonality_final.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/AffWords.java" afterPath="$PROJECT_DIR$/src/main/java/AffWords.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/CSVMaker.java" afterPath="$PROJECT_DIR$/src/main/java/CSVMaker.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/DocumentMaker.java" afterPath="$PROJECT_DIR$/src/main/java/DocumentMaker.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/H4LVD.java" afterPath="$PROJECT_DIR$/src/main/java/H4LVD.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/POSTagging.java" afterPath="$PROJECT_DIR$/src/main/java/POSTagging.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ZScores.java" afterPath="$PROJECT_DIR$/src/main/java/ZScores.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/00419a4c96b32cd63b2c7196da761274.txt" afterPath="$PROJECT_DIR$/user_statuses/00419a4c96b32cd63b2c7196da761274.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/02c37028a782cfda660c7243e45244bb.txt" afterPath="$PROJECT_DIR$/user_statuses/02c37028a782cfda660c7243e45244bb.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/03133a828cd0cf52e3752813ce5d818f.txt" afterPath="$PROJECT_DIR$/user_statuses/03133a828cd0cf52e3752813ce5d818f.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/06b055f8e2bca96496514891057913c3.txt" afterPath="$PROJECT_DIR$/user_statuses/06b055f8e2bca96496514891057913c3.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/0724fe854bd455061ba84efecdeff469.txt" afterPath="$PROJECT_DIR$/user_statuses/0724fe854bd455061ba84efecdeff469.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/0737e4e4980f56c9fb1cb5743001c917.txt" afterPath="$PROJECT_DIR$/user_statuses/0737e4e4980f56c9fb1cb5743001c917.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/0abd57182992dd9167b88b198350afe4.txt" afterPath="$PROJECT_DIR$/user_statuses/0abd57182992dd9167b88b198350afe4.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/0bfa3d952ffed50f25011b128e73a820.txt" afterPath="$PROJECT_DIR$/user_statuses/0bfa3d952ffed50f25011b128e73a820.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/0e09a1e89675e72bc2c3f2fac504fced.txt" afterPath="$PROJECT_DIR$/user_statuses/0e09a1e89675e72bc2c3f2fac504fced.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/0ea88660e23db79e2a3c897a5490d0df.txt" afterPath="$PROJECT_DIR$/user_statuses/0ea88660e23db79e2a3c897a5490d0df.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/1187ed8a8b100eb49b8684ac30d6da29.txt" afterPath="$PROJECT_DIR$/user_statuses/1187ed8a8b100eb49b8684ac30d6da29.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/11fc0a8b587b93bb9bfe957f62729d7e.txt" afterPath="$PROJECT_DIR$/user_statuses/11fc0a8b587b93bb9bfe957f62729d7e.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/12006962a8659cc890a5a66913494704.txt" afterPath="$PROJECT_DIR$/user_statuses/12006962a8659cc890a5a66913494704.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/127d3a99f86b3ee848fd0449bec048fc.txt" afterPath="$PROJECT_DIR$/user_statuses/127d3a99f86b3ee848fd0449bec048fc.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/138ac63ec2b55b8f48fd19c300720cae.txt" afterPath="$PROJECT_DIR$/user_statuses/138ac63ec2b55b8f48fd19c300720cae.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/13eda4b130aec87b280692cd68e3cabd.txt" afterPath="$PROJECT_DIR$/user_statuses/13eda4b130aec87b280692cd68e3cabd.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/142635bd7f9ed8e4d8c292fa6ccd9aa4.txt" afterPath="$PROJECT_DIR$/user_statuses/142635bd7f9ed8e4d8c292fa6ccd9aa4.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/1695fbad7101e34d4cb4686a6770231f.txt" afterPath="$PROJECT_DIR$/user_statuses/1695fbad7101e34d4cb4686a6770231f.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/172400f46880b309ca5e97d322bb8f01.txt" afterPath="$PROJECT_DIR$/user_statuses/172400f46880b309ca5e97d322bb8f01.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/181962441153a36333f0c60701823412.txt" afterPath="$PROJECT_DIR$/user_statuses/181962441153a36333f0c60701823412.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/1886cffe45f0ee0240eda42e44a01e07.txt" afterPath="$PROJECT_DIR$/user_statuses/1886cffe45f0ee0240eda42e44a01e07.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/1bd281623fa6ad208caa394dcad75c7d.txt" afterPath="$PROJECT_DIR$/user_statuses/1bd281623fa6ad208caa394dcad75c7d.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/1c10cc0852579d2fa000e3fc3327bb98.txt" afterPath="$PROJECT_DIR$/user_statuses/1c10cc0852579d2fa000e3fc3327bb98.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/1d6d222bd3fb4c0af35466042cb82d78.txt" afterPath="$PROJECT_DIR$/user_statuses/1d6d222bd3fb4c0af35466042cb82d78.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/1ece40ac9b657dea8c22a1fe58d3a6fe.txt" afterPath="$PROJECT_DIR$/user_statuses/1ece40ac9b657dea8c22a1fe58d3a6fe.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/200255966ca6e2636535b5b93ac04497.txt" afterPath="$PROJECT_DIR$/user_statuses/200255966ca6e2636535b5b93ac04497.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/225c97c90103cc04cda7d10845f2733e.txt" afterPath="$PROJECT_DIR$/user_statuses/225c97c90103cc04cda7d10845f2733e.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/22d1f7b24168528163c515b1c96a879c.txt" afterPath="$PROJECT_DIR$/user_statuses/22d1f7b24168528163c515b1c96a879c.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/2382eeba332f59ff29cf63a839a33f9a.txt" afterPath="$PROJECT_DIR$/user_statuses/2382eeba332f59ff29cf63a839a33f9a.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/259f8f9cce95b214dc9924af48bcd6f0.txt" afterPath="$PROJECT_DIR$/user_statuses/259f8f9cce95b214dc9924af48bcd6f0.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/2609216746274fd785c35801fb53e9d8.txt" afterPath="$PROJECT_DIR$/user_statuses/2609216746274fd785c35801fb53e9d8.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/28038d4b1e4bcfc3b91960f095eccca4.txt" afterPath="$PROJECT_DIR$/user_statuses/28038d4b1e4bcfc3b91960f095eccca4.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/2a7471dcf8d1e9b91c89eb91fc2a140d.txt" afterPath="$PROJECT_DIR$/user_statuses/2a7471dcf8d1e9b91c89eb91fc2a140d.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/2badb47503a98766c89e266d1130969a.txt" afterPath="$PROJECT_DIR$/user_statuses/2badb47503a98766c89e266d1130969a.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/2d14a09b41a0d12b9e60377a0a8e14a8.txt" afterPath="$PROJECT_DIR$/user_statuses/2d14a09b41a0d12b9e60377a0a8e14a8.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/2ea1efd66ffc011621a4a74e06005e23.txt" afterPath="$PROJECT_DIR$/user_statuses/2ea1efd66ffc011621a4a74e06005e23.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/301e1788a595203d0daf3fed10afe1c9.txt" afterPath="$PROJECT_DIR$/user_statuses/301e1788a595203d0daf3fed10afe1c9.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/318bf822d4f2bd3920367560218619c0.txt" afterPath="$PROJECT_DIR$/user_statuses/318bf822d4f2bd3920367560218619c0.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/325e62f4e7e4f64a03fcf831a8d80bf1.txt" afterPath="$PROJECT_DIR$/user_statuses/325e62f4e7e4f64a03fcf831a8d80bf1.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/330abbccd3c0ad0fdb0cbe815599bd4f.txt" afterPath="$PROJECT_DIR$/user_statuses/330abbccd3c0ad0fdb0cbe815599bd4f.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/331a1fdb9c8304206db1b7c4c6852363.txt" afterPath="$PROJECT_DIR$/user_statuses/331a1fdb9c8304206db1b7c4c6852363.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/33e1c2ac25051eda8cc69d1379f584eb.txt" afterPath="$PROJECT_DIR$/user_statuses/33e1c2ac25051eda8cc69d1379f584eb.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/341d74a026925b6a0bde7b58c519c414.txt" afterPath="$PROJECT_DIR$/user_statuses/341d74a026925b6a0bde7b58c519c414.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/370a8295df2f8b9069e75422c37d2639.txt" afterPath="$PROJECT_DIR$/user_statuses/370a8295df2f8b9069e75422c37d2639.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/37195f370c3fd7486ccedb1519b026c2.txt" afterPath="$PROJECT_DIR$/user_statuses/37195f370c3fd7486ccedb1519b026c2.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/374035e42f4b691c2b9c7b915ef1aeae.txt" afterPath="$PROJECT_DIR$/user_statuses/374035e42f4b691c2b9c7b915ef1aeae.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/3b474abc02985674f2b64e46a939bb3d.txt" afterPath="$PROJECT_DIR$/user_statuses/3b474abc02985674f2b64e46a939bb3d.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/3b6a414b280222a29d0a95c473cf6b61.txt" afterPath="$PROJECT_DIR$/user_statuses/3b6a414b280222a29d0a95c473cf6b61.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/3d7847b1c33b5f5811208b4aa1a7ffbd.txt" afterPath="$PROJECT_DIR$/user_statuses/3d7847b1c33b5f5811208b4aa1a7ffbd.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/3fe44fab3eb561ae418a22182ec75fad.txt" afterPath="$PROJECT_DIR$/user_statuses/3fe44fab3eb561ae418a22182ec75fad.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/436e99cf44a590f9fa63638544619ce1.txt" afterPath="$PROJECT_DIR$/user_statuses/436e99cf44a590f9fa63638544619ce1.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/43e9b5847ad2e94f53bcc9d826093a76.txt" afterPath="$PROJECT_DIR$/user_statuses/43e9b5847ad2e94f53bcc9d826093a76.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/448084546d4ae45e47c3a83f338ade56.txt" afterPath="$PROJECT_DIR$/user_statuses/448084546d4ae45e47c3a83f338ade56.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/450c787001b004af69428e267c7a4ca1.txt" afterPath="$PROJECT_DIR$/user_statuses/450c787001b004af69428e267c7a4ca1.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/45a8b713a08f44ad954463e0aa979235.txt" afterPath="$PROJECT_DIR$/user_statuses/45a8b713a08f44ad954463e0aa979235.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/45ab97edbe4e93bc1017bcd28483a678.txt" afterPath="$PROJECT_DIR$/user_statuses/45ab97edbe4e93bc1017bcd28483a678.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/4a6ef0fc11285732bde96e8863dcb7f4.txt" afterPath="$PROJECT_DIR$/user_statuses/4a6ef0fc11285732bde96e8863dcb7f4.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/4b8c9b247d45495cdb1ebf755fcec1f6.txt" afterPath="$PROJECT_DIR$/user_statuses/4b8c9b247d45495cdb1ebf755fcec1f6.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/4bbb1f5843d9d6e8966dce58179f01de.txt" afterPath="$PROJECT_DIR$/user_statuses/4bbb1f5843d9d6e8966dce58179f01de.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/4cac659f923d6f3b4605f38477a04458.txt" afterPath="$PROJECT_DIR$/user_statuses/4cac659f923d6f3b4605f38477a04458.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/4d035bd3fd8d9595d15cea9e388964be.txt" afterPath="$PROJECT_DIR$/user_statuses/4d035bd3fd8d9595d15cea9e388964be.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/4e5bc97d95f3aca05d420bfd4e3a2639.txt" afterPath="$PROJECT_DIR$/user_statuses/4e5bc97d95f3aca05d420bfd4e3a2639.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/4f48c6c8051e144c717ce143e8d77782.txt" afterPath="$PROJECT_DIR$/user_statuses/4f48c6c8051e144c717ce143e8d77782.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/502db2fcfe26705ae16a46c5cb2ad2e5.txt" afterPath="$PROJECT_DIR$/user_statuses/502db2fcfe26705ae16a46c5cb2ad2e5.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/504862f12f8c000ae4358a10d657e8f5.txt" afterPath="$PROJECT_DIR$/user_statuses/504862f12f8c000ae4358a10d657e8f5.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/521896b01c1a506dc4404e600fa99c5b.txt" afterPath="$PROJECT_DIR$/user_statuses/521896b01c1a506dc4404e600fa99c5b.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/526ac2635cb3f5e0ee5d7424e83e9107.txt" afterPath="$PROJECT_DIR$/user_statuses/526ac2635cb3f5e0ee5d7424e83e9107.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/527ed53d2ba3a3bc417b8402d5b2f556.txt" afterPath="$PROJECT_DIR$/user_statuses/527ed53d2ba3a3bc417b8402d5b2f556.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/5299b573a6caaf4aebfb3cf6bc8acfd8.txt" afterPath="$PROJECT_DIR$/user_statuses/5299b573a6caaf4aebfb3cf6bc8acfd8.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/530e195e467f673de0917893fbf9299a.txt" afterPath="$PROJECT_DIR$/user_statuses/530e195e467f673de0917893fbf9299a.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/540159466df2f050426692ddaac1eab4.txt" afterPath="$PROJECT_DIR$/user_statuses/540159466df2f050426692ddaac1eab4.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/5489ed38556af050d6a93e5d27b95dfb.txt" afterPath="$PROJECT_DIR$/user_statuses/5489ed38556af050d6a93e5d27b95dfb.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/567632b6b7ae8ce7297affcd7ff42c95.txt" afterPath="$PROJECT_DIR$/user_statuses/567632b6b7ae8ce7297affcd7ff42c95.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/57c2d8496ceb8e92022bcac20cca27e1.txt" afterPath="$PROJECT_DIR$/user_statuses/57c2d8496ceb8e92022bcac20cca27e1.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/5880081cd3de1619cd431a75d9052dfc.txt" afterPath="$PROJECT_DIR$/user_statuses/5880081cd3de1619cd431a75d9052dfc.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/5c73047a8292131a9aa261cfa07932fd.txt" afterPath="$PROJECT_DIR$/user_statuses/5c73047a8292131a9aa261cfa07932fd.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/603f11575493fd2df5d15faa9c96cec8.txt" afterPath="$PROJECT_DIR$/user_statuses/603f11575493fd2df5d15faa9c96cec8.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/60751629cdaa2f62ebc9a33209fcca8e.txt" afterPath="$PROJECT_DIR$/user_statuses/60751629cdaa2f62ebc9a33209fcca8e.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/65266a09dc3d274bed54447cf4565392.txt" afterPath="$PROJECT_DIR$/user_statuses/65266a09dc3d274bed54447cf4565392.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/666c166767bb6645ee3dde9804faa6a9.txt" afterPath="$PROJECT_DIR$/user_statuses/666c166767bb6645ee3dde9804faa6a9.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/6810431fc51108130be92d505ea4944b.txt" afterPath="$PROJECT_DIR$/user_statuses/6810431fc51108130be92d505ea4944b.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/690d0ead7039eccdcaeb4d9f77b168b5.txt" afterPath="$PROJECT_DIR$/user_statuses/690d0ead7039eccdcaeb4d9f77b168b5.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/692758eda219c4fdb6aa64e929be3ff0.txt" afterPath="$PROJECT_DIR$/user_statuses/692758eda219c4fdb6aa64e929be3ff0.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/6980ce18350d98916f56c95b4dc4496d.txt" afterPath="$PROJECT_DIR$/user_statuses/6980ce18350d98916f56c95b4dc4496d.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/69adae32cb076bf219e0d856ef233008.txt" afterPath="$PROJECT_DIR$/user_statuses/69adae32cb076bf219e0d856ef233008.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/69d136c8d8dc113c3aee4835e941798d.txt" afterPath="$PROJECT_DIR$/user_statuses/69d136c8d8dc113c3aee4835e941798d.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/6b87839f53a878460fca47c778ec9e3a.txt" afterPath="$PROJECT_DIR$/user_statuses/6b87839f53a878460fca47c778ec9e3a.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/6c1d913a21f2f3febbd15ee6044a4ac1.txt" afterPath="$PROJECT_DIR$/user_statuses/6c1d913a21f2f3febbd15ee6044a4ac1.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/6d532e15130603bca8c7e08c8c7e1411.txt" afterPath="$PROJECT_DIR$/user_statuses/6d532e15130603bca8c7e08c8c7e1411.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/6f2bebc01062eb8334dccba3e048fdb5.txt" afterPath="$PROJECT_DIR$/user_statuses/6f2bebc01062eb8334dccba3e048fdb5.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/709606429cd1b0d5cefaf63cdeaaa86b.txt" afterPath="$PROJECT_DIR$/user_statuses/709606429cd1b0d5cefaf63cdeaaa86b.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/711d198ce5dcc873c3b1fd1468e84d2f.txt" afterPath="$PROJECT_DIR$/user_statuses/711d198ce5dcc873c3b1fd1468e84d2f.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/715c9eb832dc833a0b6409ddccd268b1.txt" afterPath="$PROJECT_DIR$/user_statuses/715c9eb832dc833a0b6409ddccd268b1.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/72265a88c1d9956ea6c7b49aa6e54220.txt" afterPath="$PROJECT_DIR$/user_statuses/72265a88c1d9956ea6c7b49aa6e54220.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/740aa055e9dccaee874ab7ec7e499d8e.txt" afterPath="$PROJECT_DIR$/user_statuses/740aa055e9dccaee874ab7ec7e499d8e.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/751e53fc64b770f7b5ea2b0964678599.txt" afterPath="$PROJECT_DIR$/user_statuses/751e53fc64b770f7b5ea2b0964678599.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/770b44cbe67c3e68372f529acd82a3ab.txt" afterPath="$PROJECT_DIR$/user_statuses/770b44cbe67c3e68372f529acd82a3ab.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/785d03537a119e9decd7de253c74c306.txt" afterPath="$PROJECT_DIR$/user_statuses/785d03537a119e9decd7de253c74c306.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/789ce9b31990354f0a5a507347844dea.txt" afterPath="$PROJECT_DIR$/user_statuses/789ce9b31990354f0a5a507347844dea.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/7938e0ab2768b67f6375eabcfefff5e1.txt" afterPath="$PROJECT_DIR$/user_statuses/7938e0ab2768b67f6375eabcfefff5e1.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/7b061056ba902bf5a3f0f123fb181ad3.txt" afterPath="$PROJECT_DIR$/user_statuses/7b061056ba902bf5a3f0f123fb181ad3.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/7d41c244db4ee816029991d903cc7ce1.txt" afterPath="$PROJECT_DIR$/user_statuses/7d41c244db4ee816029991d903cc7ce1.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/7e0954e34b5af347696eb260230bccda.txt" afterPath="$PROJECT_DIR$/user_statuses/7e0954e34b5af347696eb260230bccda.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/7f3bfec0b7228d0900b01fbc8ce9d59f.txt" afterPath="$PROJECT_DIR$/user_statuses/7f3bfec0b7228d0900b01fbc8ce9d59f.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/80a570b74f23f56c94f639436ff92353.txt" afterPath="$PROJECT_DIR$/user_statuses/80a570b74f23f56c94f639436ff92353.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/810c70fdd8c82cb4e0afc1e8cc62759a.txt" afterPath="$PROJECT_DIR$/user_statuses/810c70fdd8c82cb4e0afc1e8cc62759a.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/82d3a5e0936ddbff93f6630365f80af5.txt" afterPath="$PROJECT_DIR$/user_statuses/82d3a5e0936ddbff93f6630365f80af5.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/83aeafc166238ebf5aaa2530e6205341.txt" afterPath="$PROJECT_DIR$/user_statuses/83aeafc166238ebf5aaa2530e6205341.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/83b6e605652dbf6915856eea1ce419bd.txt" afterPath="$PROJECT_DIR$/user_statuses/83b6e605652dbf6915856eea1ce419bd.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/845bd196f34b0eef0246f94eb25ba8c3.txt" afterPath="$PROJECT_DIR$/user_statuses/845bd196f34b0eef0246f94eb25ba8c3.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/849cd35a3dfc7200b683b67d0167598f.txt" afterPath="$PROJECT_DIR$/user_statuses/849cd35a3dfc7200b683b67d0167598f.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/85a78b7179d46b27e3f4f3a1468e2a1c.txt" afterPath="$PROJECT_DIR$/user_statuses/85a78b7179d46b27e3f4f3a1468e2a1c.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/8736d2c84c639dc57ef984602d8d96aa.txt" afterPath="$PROJECT_DIR$/user_statuses/8736d2c84c639dc57ef984602d8d96aa.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/8974aab97d9fc4e3a53ba126b5eedd81.txt" afterPath="$PROJECT_DIR$/user_statuses/8974aab97d9fc4e3a53ba126b5eedd81.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/8a302f01e209fc15fa8425f2d41f633a.txt" afterPath="$PROJECT_DIR$/user_statuses/8a302f01e209fc15fa8425f2d41f633a.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/8b77d971b63c574b499cf120fca34bfd.txt" afterPath="$PROJECT_DIR$/user_statuses/8b77d971b63c574b499cf120fca34bfd.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/8bfbf6d9c91e07247d0ff83bbcacee68.txt" afterPath="$PROJECT_DIR$/user_statuses/8bfbf6d9c91e07247d0ff83bbcacee68.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/8cc4acc3bb9b04d1c4a4b4d35ca514ee.txt" afterPath="$PROJECT_DIR$/user_statuses/8cc4acc3bb9b04d1c4a4b4d35ca514ee.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/8d7faa6d7f104a6cb7c4a9e1c6310a15.txt" afterPath="$PROJECT_DIR$/user_statuses/8d7faa6d7f104a6cb7c4a9e1c6310a15.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/8de8bd927b7382cb4fa28b96d9c1d539.txt" afterPath="$PROJECT_DIR$/user_statuses/8de8bd927b7382cb4fa28b96d9c1d539.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/8e228453cfa66cf26d56af6df77624b7.txt" afterPath="$PROJECT_DIR$/user_statuses/8e228453cfa66cf26d56af6df77624b7.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/8f9d4ed5d16ed1a67d734196d29d1f6b.txt" afterPath="$PROJECT_DIR$/user_statuses/8f9d4ed5d16ed1a67d734196d29d1f6b.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/906314c683222f7d232b5ea1ee82befc.txt" afterPath="$PROJECT_DIR$/user_statuses/906314c683222f7d232b5ea1ee82befc.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/933791b8623dadbb82664c60db91fb7e.txt" afterPath="$PROJECT_DIR$/user_statuses/933791b8623dadbb82664c60db91fb7e.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/94c07315276329eaf9beb29b759d4442.txt" afterPath="$PROJECT_DIR$/user_statuses/94c07315276329eaf9beb29b759d4442.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/96487b200f227f3f845bb8851dad2139.txt" afterPath="$PROJECT_DIR$/user_statuses/96487b200f227f3f845bb8851dad2139.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/969c2ff79da16a5ac43dda095e6d653e.txt" afterPath="$PROJECT_DIR$/user_statuses/969c2ff79da16a5ac43dda095e6d653e.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/970197105b41eac939d4fc3cec25137b.txt" afterPath="$PROJECT_DIR$/user_statuses/970197105b41eac939d4fc3cec25137b.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/9a8cf1dcb2de1a8f70c4745a636bbb96.txt" afterPath="$PROJECT_DIR$/user_statuses/9a8cf1dcb2de1a8f70c4745a636bbb96.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/9b73d5a07c079cce614932e39e2f1852.txt" afterPath="$PROJECT_DIR$/user_statuses/9b73d5a07c079cce614932e39e2f1852.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/9e7ebc8082b0e7e92e7aedd3ba562d84.txt" afterPath="$PROJECT_DIR$/user_statuses/9e7ebc8082b0e7e92e7aedd3ba562d84.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/9f320ade181aa12bf10361871afa8d90.txt" afterPath="$PROJECT_DIR$/user_statuses/9f320ade181aa12bf10361871afa8d90.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/a1a428d8cf752b3f0527c106b741a9ad.txt" afterPath="$PROJECT_DIR$/user_statuses/a1a428d8cf752b3f0527c106b741a9ad.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/a1c187cbf8532b649cc3b36c01a3ca20.txt" afterPath="$PROJECT_DIR$/user_statuses/a1c187cbf8532b649cc3b36c01a3ca20.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/a286b7286b1247d4a7851709e9f31e1e.txt" afterPath="$PROJECT_DIR$/user_statuses/a286b7286b1247d4a7851709e9f31e1e.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/a28eb911aad029162befe9e541d9fb86.txt" afterPath="$PROJECT_DIR$/user_statuses/a28eb911aad029162befe9e541d9fb86.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/a40e2ef8193f5273a04cc7bbaae0789c.txt" afterPath="$PROJECT_DIR$/user_statuses/a40e2ef8193f5273a04cc7bbaae0789c.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/a4fb2531183a186f2b5362ab89d885a2.txt" afterPath="$PROJECT_DIR$/user_statuses/a4fb2531183a186f2b5362ab89d885a2.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/a6336ec5e11839ae33aee01fa2163652.txt" afterPath="$PROJECT_DIR$/user_statuses/a6336ec5e11839ae33aee01fa2163652.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/a63a43d8a197935264abe0d57d930712.txt" afterPath="$PROJECT_DIR$/user_statuses/a63a43d8a197935264abe0d57d930712.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/a755cc2250ae57df9f1f4b5bf005e048.txt" afterPath="$PROJECT_DIR$/user_statuses/a755cc2250ae57df9f1f4b5bf005e048.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/a7637e86876374b952f4d10d0513c350.txt" afterPath="$PROJECT_DIR$/user_statuses/a7637e86876374b952f4d10d0513c350.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/a7d9818f6165cd5c84b8578185ccd616.txt" afterPath="$PROJECT_DIR$/user_statuses/a7d9818f6165cd5c84b8578185ccd616.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/a8295e7c5a427770f9777a825e6daf35.txt" afterPath="$PROJECT_DIR$/user_statuses/a8295e7c5a427770f9777a825e6daf35.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/ab10a89d4fa299fe348a3ee1d183b3ee.txt" afterPath="$PROJECT_DIR$/user_statuses/ab10a89d4fa299fe348a3ee1d183b3ee.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/ab38affacd75668b8eaf1df27e8b5be8.txt" afterPath="$PROJECT_DIR$/user_statuses/ab38affacd75668b8eaf1df27e8b5be8.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/ac8bf16a381d07c01b11651994ecb746.txt" afterPath="$PROJECT_DIR$/user_statuses/ac8bf16a381d07c01b11651994ecb746.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/acfd53e1393633ae24f8c946d79a17d4.txt" afterPath="$PROJECT_DIR$/user_statuses/acfd53e1393633ae24f8c946d79a17d4.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/ad30ce6078fd6ea54abca85610fba76f.txt" afterPath="$PROJECT_DIR$/user_statuses/ad30ce6078fd6ea54abca85610fba76f.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/aec40862b2a12be50b4d04347985b54d.txt" afterPath="$PROJECT_DIR$/user_statuses/aec40862b2a12be50b4d04347985b54d.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/aff70c2dcbd47c664777eb8df02967de.txt" afterPath="$PROJECT_DIR$/user_statuses/aff70c2dcbd47c664777eb8df02967de.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/b05f34be807a91ce0325cda601bc5856.txt" afterPath="$PROJECT_DIR$/user_statuses/b05f34be807a91ce0325cda601bc5856.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/b2be41464b53ffc6deae9536ddfd3aee.txt" afterPath="$PROJECT_DIR$/user_statuses/b2be41464b53ffc6deae9536ddfd3aee.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/b4a21c82de4011033c8ac67081ff939c.txt" afterPath="$PROJECT_DIR$/user_statuses/b4a21c82de4011033c8ac67081ff939c.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/b4de950df13c0765018013237c6a1b3d.txt" afterPath="$PROJECT_DIR$/user_statuses/b4de950df13c0765018013237c6a1b3d.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/b576dc0449e75306c30456902ce0c80b.txt" afterPath="$PROJECT_DIR$/user_statuses/b576dc0449e75306c30456902ce0c80b.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/b7b7764cfa1c523e4e93ab2a79a946c4.txt" afterPath="$PROJECT_DIR$/user_statuses/b7b7764cfa1c523e4e93ab2a79a946c4.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/b8295738a9b021d82860887c3be41164.txt" afterPath="$PROJECT_DIR$/user_statuses/b8295738a9b021d82860887c3be41164.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/b84d2613c4cf4e73f9c230f57facf66c.txt" afterPath="$PROJECT_DIR$/user_statuses/b84d2613c4cf4e73f9c230f57facf66c.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/b98b995372448f015357638c8eb6add1.txt" afterPath="$PROJECT_DIR$/user_statuses/b98b995372448f015357638c8eb6add1.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/b9a3df4af9a274fb33ce377fbdce9c16.txt" afterPath="$PROJECT_DIR$/user_statuses/b9a3df4af9a274fb33ce377fbdce9c16.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/b9a44bb356832160caccc9eb3614e0ce.txt" afterPath="$PROJECT_DIR$/user_statuses/b9a44bb356832160caccc9eb3614e0ce.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/ba1463b4d7bcf9c3167df26e0eb1dc57.txt" afterPath="$PROJECT_DIR$/user_statuses/ba1463b4d7bcf9c3167df26e0eb1dc57.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/baa58f6b30d937855af7bd7c22f0756b.txt" afterPath="$PROJECT_DIR$/user_statuses/baa58f6b30d937855af7bd7c22f0756b.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/bbe1ab61508fad201213fbe8090c5a75.txt" afterPath="$PROJECT_DIR$/user_statuses/bbe1ab61508fad201213fbe8090c5a75.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/beeb68b947eaec4a55a9d8d20a7c5b52.txt" afterPath="$PROJECT_DIR$/user_statuses/beeb68b947eaec4a55a9d8d20a7c5b52.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/bf749347531c855f7bed0bd259b81557.txt" afterPath="$PROJECT_DIR$/user_statuses/bf749347531c855f7bed0bd259b81557.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/c19a4fb5e846fb6575b0a8f3a2081ea0.txt" afterPath="$PROJECT_DIR$/user_statuses/c19a4fb5e846fb6575b0a8f3a2081ea0.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/c3f4b3e345cb6b032db2e0459d179db3.txt" afterPath="$PROJECT_DIR$/user_statuses/c3f4b3e345cb6b032db2e0459d179db3.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/c5898ecc4c7407e6f07cc3485073d3a6.txt" afterPath="$PROJECT_DIR$/user_statuses/c5898ecc4c7407e6f07cc3485073d3a6.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/c597771fab7477c2ae7b507d532130b0.txt" afterPath="$PROJECT_DIR$/user_statuses/c597771fab7477c2ae7b507d532130b0.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/c59d2b7cca46cd85c4ac6d6ab554f170.txt" afterPath="$PROJECT_DIR$/user_statuses/c59d2b7cca46cd85c4ac6d6ab554f170.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/c5d9ffcb242053b0abdebe0d684fea3a.txt" afterPath="$PROJECT_DIR$/user_statuses/c5d9ffcb242053b0abdebe0d684fea3a.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/c6a9a43058c8cc8398ca6e97324c0fae.txt" afterPath="$PROJECT_DIR$/user_statuses/c6a9a43058c8cc8398ca6e97324c0fae.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/c6ee79de33e47a3799c1d00e5f727b9e.txt" afterPath="$PROJECT_DIR$/user_statuses/c6ee79de33e47a3799c1d00e5f727b9e.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/c723c2f329649b2af235fdefd1ca293c.txt" afterPath="$PROJECT_DIR$/user_statuses/c723c2f329649b2af235fdefd1ca293c.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/c85845b82e705a32f674757d8912df23.txt" afterPath="$PROJECT_DIR$/user_statuses/c85845b82e705a32f674757d8912df23.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/c87247ddb57f8d8ff43086ac88e69120.txt" afterPath="$PROJECT_DIR$/user_statuses/c87247ddb57f8d8ff43086ac88e69120.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/c8a62ce2aa837024b698e3eb72aa3c42.txt" afterPath="$PROJECT_DIR$/user_statuses/c8a62ce2aa837024b698e3eb72aa3c42.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/cce9e48f159ae910f38fb00810be2a68.txt" afterPath="$PROJECT_DIR$/user_statuses/cce9e48f159ae910f38fb00810be2a68.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/cd99c28741e42fd9792616d3a4328f17.txt" afterPath="$PROJECT_DIR$/user_statuses/cd99c28741e42fd9792616d3a4328f17.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/cde9ad52e50a6a9740dcb3461deb8a0b.txt" afterPath="$PROJECT_DIR$/user_statuses/cde9ad52e50a6a9740dcb3461deb8a0b.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/ce1a957dabf068478d322a56c0dfaf41.txt" afterPath="$PROJECT_DIR$/user_statuses/ce1a957dabf068478d322a56c0dfaf41.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/ce9e978af8369a85f4fc15137013015b.txt" afterPath="$PROJECT_DIR$/user_statuses/ce9e978af8369a85f4fc15137013015b.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/cef8086fc8220dde9874948728787a2c.txt" afterPath="$PROJECT_DIR$/user_statuses/cef8086fc8220dde9874948728787a2c.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/cf5a3f66c42918587a1428a6f7d7eec9.txt" afterPath="$PROJECT_DIR$/user_statuses/cf5a3f66c42918587a1428a6f7d7eec9.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/d177a27cdcf11df2e6e09de9620e9c5e.txt" afterPath="$PROJECT_DIR$/user_statuses/d177a27cdcf11df2e6e09de9620e9c5e.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/d298a6d98000dc07bbb7994f71d867d3.txt" afterPath="$PROJECT_DIR$/user_statuses/d298a6d98000dc07bbb7994f71d867d3.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/d2ee2871aa02698e66fdc72b2218cdd8.txt" afterPath="$PROJECT_DIR$/user_statuses/d2ee2871aa02698e66fdc72b2218cdd8.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/d3582916ef22700cebb70f5cdedc1da9.txt" afterPath="$PROJECT_DIR$/user_statuses/d3582916ef22700cebb70f5cdedc1da9.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/d38a81dfbfbbd5f2a2a0a03e9db304c6.txt" afterPath="$PROJECT_DIR$/user_statuses/d38a81dfbfbbd5f2a2a0a03e9db304c6.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/d39c2b0fb2e50e37795fdbe3b8cd3792.txt" afterPath="$PROJECT_DIR$/user_statuses/d39c2b0fb2e50e37795fdbe3b8cd3792.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/d453b26dfd348fdb99e909df7d8bec39.txt" afterPath="$PROJECT_DIR$/user_statuses/d453b26dfd348fdb99e909df7d8bec39.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/d67916bbf6453cfebbd8689f7556e526.txt" afterPath="$PROJECT_DIR$/user_statuses/d67916bbf6453cfebbd8689f7556e526.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/d7e500ad854a1b6ced39e53a525b8a6d.txt" afterPath="$PROJECT_DIR$/user_statuses/d7e500ad854a1b6ced39e53a525b8a6d.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/d7f1da35557607089ee2e3a707ce4a4a.txt" afterPath="$PROJECT_DIR$/user_statuses/d7f1da35557607089ee2e3a707ce4a4a.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/d8b283c6d460cdc5cb95d65e1c0a71d4.txt" afterPath="$PROJECT_DIR$/user_statuses/d8b283c6d460cdc5cb95d65e1c0a71d4.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/da22dab36bb12fcf9ed1a437de278a2c.txt" afterPath="$PROJECT_DIR$/user_statuses/da22dab36bb12fcf9ed1a437de278a2c.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/da56abb46f342d8e4b4bc96165cd645d.txt" afterPath="$PROJECT_DIR$/user_statuses/da56abb46f342d8e4b4bc96165cd645d.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/da8787edc39ba38d6bc9f0d10e28aa0f.txt" afterPath="$PROJECT_DIR$/user_statuses/da8787edc39ba38d6bc9f0d10e28aa0f.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/db39f7b2aad360b1033ec1f8fcd57f9c.txt" afterPath="$PROJECT_DIR$/user_statuses/db39f7b2aad360b1033ec1f8fcd57f9c.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/dba59aed04c6759a955a37f021e45bb7.txt" afterPath="$PROJECT_DIR$/user_statuses/dba59aed04c6759a955a37f021e45bb7.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/dba5f5266d03dd6d4db084ad7dbc683c.txt" afterPath="$PROJECT_DIR$/user_statuses/dba5f5266d03dd6d4db084ad7dbc683c.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/dbdfbfda2a4205bd59b22758ceddd5af.txt" afterPath="$PROJECT_DIR$/user_statuses/dbdfbfda2a4205bd59b22758ceddd5af.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/ddaed24e83f0f9958336b52cf7a89373.txt" afterPath="$PROJECT_DIR$/user_statuses/ddaed24e83f0f9958336b52cf7a89373.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/deb899e426c1a5c66c24eeb0d7df6257.txt" afterPath="$PROJECT_DIR$/user_statuses/deb899e426c1a5c66c24eeb0d7df6257.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/e0576e496b3bc5bd1046315ddb72646a.txt" afterPath="$PROJECT_DIR$/user_statuses/e0576e496b3bc5bd1046315ddb72646a.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/e0697da7478e23479ef6723021e52606.txt" afterPath="$PROJECT_DIR$/user_statuses/e0697da7478e23479ef6723021e52606.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/e2cc76f16ed40953e5c082ff5ef9a2e9.txt" afterPath="$PROJECT_DIR$/user_statuses/e2cc76f16ed40953e5c082ff5ef9a2e9.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/e465fadd8b30e8669f397e32e10f6cd0.txt" afterPath="$PROJECT_DIR$/user_statuses/e465fadd8b30e8669f397e32e10f6cd0.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/e4a512374eee079d2b8acc2ce69990d5.txt" afterPath="$PROJECT_DIR$/user_statuses/e4a512374eee079d2b8acc2ce69990d5.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/e4a9de8d77c21c3f704fdb0055cdde43.txt" afterPath="$PROJECT_DIR$/user_statuses/e4a9de8d77c21c3f704fdb0055cdde43.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/e557fd2902b857797cb8cec471f201a5.txt" afterPath="$PROJECT_DIR$/user_statuses/e557fd2902b857797cb8cec471f201a5.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/e6cdef6f475cce3023c5b715f8c9f110.txt" afterPath="$PROJECT_DIR$/user_statuses/e6cdef6f475cce3023c5b715f8c9f110.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/e7b7f5af7d02ec06b3da2edf2053dfed.txt" afterPath="$PROJECT_DIR$/user_statuses/e7b7f5af7d02ec06b3da2edf2053dfed.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/e915a655a1bd63ef17cb61c7caa1e1f5.txt" afterPath="$PROJECT_DIR$/user_statuses/e915a655a1bd63ef17cb61c7caa1e1f5.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/ea28a927cb6663480ea33ca917c3c8ba.txt" afterPath="$PROJECT_DIR$/user_statuses/ea28a927cb6663480ea33ca917c3c8ba.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/ea890531d3e0547166efde52d843099e.txt" afterPath="$PROJECT_DIR$/user_statuses/ea890531d3e0547166efde52d843099e.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/eac7f51d95da0fefde6ecc692dcf85cc.txt" afterPath="$PROJECT_DIR$/user_statuses/eac7f51d95da0fefde6ecc692dcf85cc.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/eb3eeec6966504b2c01b77f986f24523.txt" afterPath="$PROJECT_DIR$/user_statuses/eb3eeec6966504b2c01b77f986f24523.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/eb7f8081aa0bd4004f513d3299db9063.txt" afterPath="$PROJECT_DIR$/user_statuses/eb7f8081aa0bd4004f513d3299db9063.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/ecbddbfe00e0f83cfdb802a7186061c7.txt" afterPath="$PROJECT_DIR$/user_statuses/ecbddbfe00e0f83cfdb802a7186061c7.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/ed17c3b13b9e01ed3d464149e796bcf8.txt" afterPath="$PROJECT_DIR$/user_statuses/ed17c3b13b9e01ed3d464149e796bcf8.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/ed1dbabbe3ea7fd3f44efc6f6a96db68.txt" afterPath="$PROJECT_DIR$/user_statuses/ed1dbabbe3ea7fd3f44efc6f6a96db68.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/ed9073376c5004080ba59ac69f2a1cc3.txt" afterPath="$PROJECT_DIR$/user_statuses/ed9073376c5004080ba59ac69f2a1cc3.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/efd5faf19d608aed64447940801cbc30.txt" afterPath="$PROJECT_DIR$/user_statuses/efd5faf19d608aed64447940801cbc30.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/f2026b8cb48aff9af31577ecbfda5c38.txt" afterPath="$PROJECT_DIR$/user_statuses/f2026b8cb48aff9af31577ecbfda5c38.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/f52fecbb0d9b299c889087accdf4cc50.txt" afterPath="$PROJECT_DIR$/user_statuses/f52fecbb0d9b299c889087accdf4cc50.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/f65fd0385c972159743d21700c9a7887.txt" afterPath="$PROJECT_DIR$/user_statuses/f65fd0385c972159743d21700c9a7887.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/f680792c707fafceecafa42020292e9a.txt" afterPath="$PROJECT_DIR$/user_statuses/f680792c707fafceecafa42020292e9a.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/f6e7722b811d00a7a40de2ecfab636e6.txt" afterPath="$PROJECT_DIR$/user_statuses/f6e7722b811d00a7a40de2ecfab636e6.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/f725d0ec71a511886168c30cef6468d9.txt" afterPath="$PROJECT_DIR$/user_statuses/f725d0ec71a511886168c30cef6468d9.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/f7456ac4e6b20911c40fdad18908a8d2.txt" afterPath="$PROJECT_DIR$/user_statuses/f7456ac4e6b20911c40fdad18908a8d2.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/f80644859abfbc92e9a92072c2dc50fa.txt" afterPath="$PROJECT_DIR$/user_statuses/f80644859abfbc92e9a92072c2dc50fa.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/f83aa7290cf3ae8ed75d6aee5ebbb559.txt" afterPath="$PROJECT_DIR$/user_statuses/f83aa7290cf3ae8ed75d6aee5ebbb559.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/fbe5aa478508d1dc931427ade5d9e1b4.txt" afterPath="$PROJECT_DIR$/user_statuses/fbe5aa478508d1dc931427ade5d9e1b4.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/fc1c9fb6c64740edcbbf8cfe9dde8b02.txt" afterPath="$PROJECT_DIR$/user_statuses/fc1c9fb6c64740edcbbf8cfe9dde8b02.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/fe22087986fdcc65939c793fe0ec90a9.txt" afterPath="$PROJECT_DIR$/user_statuses/fe22087986fdcc65939c793fe0ec90a9.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_statuses/fffafe151f07a30a0ede2038a897b680.txt" afterPath="$PROJECT_DIR$/user_statuses/fffafe151f07a30a0ede2038a897b680.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/valence.csv" afterPath="$PROJECT_DIR$/valence.csv" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -25,13 +272,28 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/FYP$MiscFeatures.coverage" NAME="MiscFeatures Coverage Results" MODIFIED="1516108065443" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="POSTagging.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/POSTagging.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2268">
-              <caret line="133" column="68" lean-forward="false" selection-start-line="133" selection-start-column="12" selection-end-line="133" selection-end-column="68" />
+            <state relative-caret-position="1955">
+              <caret line="115" column="58" lean-forward="false" selection-start-line="115" selection-start-column="58" selection-end-line="115" selection-end-column="58" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="H4LVD.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/H4LVD.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3026">
+              <caret line="178" column="0" lean-forward="false" selection-start-line="178" selection-start-column="0" selection-end-line="178" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -42,28 +304,18 @@
       <file leaf-file-name="DocumentMaker.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/DocumentMaker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+            <state relative-caret-position="748">
+              <caret line="51" column="23" lean-forward="false" selection-start-line="51" selection-start-column="23" selection-end-line="51" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AffWords.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/AffWords.java">
+      <file leaf-file-name="MiscFeatures.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/MiscFeatures.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1386">
-              <caret line="81" column="67" lean-forward="false" selection-start-line="81" selection-start-column="8" selection-end-line="81" selection-end-column="67" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="H4LVD.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/H4LVD.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="163" column="8" lean-forward="false" selection-start-line="163" selection-start-column="8" selection-end-line="163" selection-end-column="8" />
+            <state relative-caret-position="351">
+              <caret line="159" column="59" lean-forward="true" selection-start-line="159" selection-start-column="59" selection-end-line="159" selection-end-column="59" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -71,11 +323,21 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="AffWords.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/AffWords.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1547">
+              <caret line="95" column="5" lean-forward="false" selection-start-line="95" selection-start-column="5" selection-end-line="95" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="CSVMaker.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/CSVMaker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1458">
-              <caret line="85" column="39" lean-forward="false" selection-start-line="85" selection-start-column="39" selection-end-line="85" selection-end-column="39" />
+            <state relative-caret-position="765">
+              <caret line="49" column="9" lean-forward="false" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -84,8 +346,8 @@
       <file leaf-file-name="ZScores.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ZScores.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1152">
-              <caret line="66" column="27" lean-forward="false" selection-start-line="66" selection-start-column="27" selection-end-line="66" selection-end-column="27" />
+            <state relative-caret-position="578">
+              <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -113,6 +375,15 @@
       <find>null</find>
       <find>statuses</find>
       <find>System</find>
+      <find>wordWithCategories</find>
+      <find>records</find>
+      <find>status</find>
+      <find>getUserStatusCount</find>
+      <find>3b6a414b280222a29d0a95c473cf6b61</find>
+      <find>8</find>
+      <find>header</find>
+      <find>System.</find>
+      <find>split</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -127,12 +398,13 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/Anew.java" />
-        <option value="$PROJECT_DIR$/src/main/java/DocumentMaker.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ZScores.java" />
         <option value="$PROJECT_DIR$/src/main/java/CSVMaker.java" />
+        <option value="$PROJECT_DIR$/src/main/java/DocumentMaker.java" />
         <option value="$PROJECT_DIR$/src/main/java/AffWords.java" />
         <option value="$PROJECT_DIR$/src/main/java/POSTagging.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ZScores.java" />
         <option value="$PROJECT_DIR$/src/main/java/H4LVD.java" />
+        <option value="$PROJECT_DIR$/src/main/java/MiscFeatures.java" />
       </list>
     </option>
   </component>
@@ -142,14 +414,13 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="203" />
-    <option name="y" value="117" />
-    <option name="width" value="1279" />
-    <option name="height" value="724" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-7" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
+    <navigator proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -162,47 +433,16 @@
       <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="FYP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FYP" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FYP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FYP" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FYP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FYP" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FYP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FYP" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
-      <pane id="Scratches" />
-      <pane id="Scope" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -224,7 +464,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.H4LVD">
+  <component name="RunManager" selected="Application.MiscFeatures">
     <configuration name="AffWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="AffWords" />
@@ -256,6 +496,20 @@
     <configuration name="H4LVD" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="H4LVD" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="fyp" />
+      <envs />
+    </configuration>
+    <configuration name="MiscFeatures" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="MiscFeatures" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -362,18 +616,20 @@
       <properties />
       <listeners />
     </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.POSTagging" />
       <item index="1" class="java.lang.String" itemvalue="Application.DocumentMaker" />
       <item index="2" class="java.lang.String" itemvalue="Application.AffWords" />
       <item index="3" class="java.lang.String" itemvalue="Application.H4LVD" />
+      <item index="4" class="java.lang.String" itemvalue="Application.MiscFeatures" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Application.H4LVD" />
-        <item index="1" class="java.lang.String" itemvalue="Application.POSTagging" />
-        <item index="2" class="java.lang.String" itemvalue="Application.AffWords" />
-        <item index="3" class="java.lang.String" itemvalue="Application.DocumentMaker" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Application.MiscFeatures" />
+        <item index="1" class="java.lang.String" itemvalue="Application.H4LVD" />
+        <item index="2" class="java.lang.String" itemvalue="Application.POSTagging" />
+        <item index="3" class="java.lang.String" itemvalue="Application.AffWords" />
+        <item index="4" class="java.lang.String" itemvalue="Application.DocumentMaker" />
       </list>
     </recent_temporary>
   </component>
@@ -398,25 +654,43 @@
       <workItem from="1510825908382" duration="3296000" />
       <workItem from="1511378913431" duration="14000" />
       <workItem from="1511626142161" duration="608000" />
+      <workItem from="1511627456085" duration="3370000" />
+      <workItem from="1511695926403" duration="75000" />
+      <workItem from="1512569035244" duration="688000" />
+      <workItem from="1512850138914" duration="395000" />
+      <workItem from="1515420153803" duration="2673000" />
+      <workItem from="1515431601562" duration="1392000" />
+      <workItem from="1515522612096" duration="4122000" />
+      <workItem from="1515600504576" duration="7291000" />
+      <workItem from="1515787292677" duration="23000" />
+      <workItem from="1516045518035" duration="6782000" />
+      <workItem from="1516107914401" duration="1560000" />
+      <workItem from="1516115714998" duration="5558000" />
+      <workItem from="1516134009655" duration="4473000" />
+      <workItem from="1516199931314" duration="20098000" />
+      <workItem from="1516276768222" duration="2334000" />
+      <workItem from="1516282681645" duration="147000" />
+      <workItem from="1516297050112" duration="5756000" />
+      <workItem from="1516306902411" duration="273000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49941000" />
+    <option name="totallyTimeSpent" value="116951000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32873806" sideWeight="0.47916666" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15165165" sideWeight="0.09375" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3918919" sideWeight="0.90625" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22375397" sideWeight="0.90625" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -432,8 +706,8 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32882884" sideWeight="0.47916666" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="5.2083336E-4" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32873806" sideWeight="0.475" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -477,6 +751,78 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ZScores.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1088">
+          <caret line="66" column="27" lean-forward="false" selection-start-line="66" selection-start-column="27" selection-end-line="66" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/AffWords.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2482">
+          <caret line="150" column="71" lean-forward="false" selection-start-line="150" selection-start-column="71" selection-end-line="150" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/POSTagging.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2142">
+          <caret line="133" column="68" lean-forward="false" selection-start-line="133" selection-start-column="12" selection-end-line="133" selection-end-column="68" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/DocumentMaker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/AffWords.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1309">
+          <caret line="81" column="25" lean-forward="true" selection-start-line="81" selection-start-column="8" selection-end-line="81" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/CSVMaker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1377">
+          <caret line="85" column="39" lean-forward="false" selection-start-line="85" selection-start-column="39" selection-end-line="85" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ZScores.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1088">
+          <caret line="66" column="27" lean-forward="false" selection-start-line="66" selection-start-column="27" selection-end-line="66" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/H4LVD.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2703">
+          <caret line="163" column="8" lean-forward="false" selection-start-line="163" selection-start-column="8" selection-end-line="163" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/POSTagging.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -513,13 +859,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pos.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/pos.csv" />
     <entry file="file://$PROJECT_DIR$/src/main/java/CSVMaker.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1458">
@@ -757,58 +1097,46 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/valence2.csv" />
-    <entry file="file://$PROJECT_DIR$/valence.csv">
+    <entry file="file://$PROJECT_DIR$/valence.csv" />
+    <entry file="file://$PROJECT_DIR$/pos.csv" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ZScores.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-16912">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pos.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/POSTagging.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2268">
-          <caret line="133" column="68" lean-forward="false" selection-start-line="133" selection-start-column="12" selection-end-line="133" selection-end-column="68" />
+        <state relative-caret-position="578">
+          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/CSVMaker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="49" column="9" lean-forward="false" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/DocumentMaker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        <state relative-caret-position="748">
+          <caret line="51" column="23" lean-forward="false" selection-start-line="51" selection-start-column="23" selection-end-line="51" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/AffWords.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1386">
-          <caret line="81" column="67" lean-forward="false" selection-start-line="81" selection-start-column="8" selection-end-line="81" selection-end-column="67" />
+        <state relative-caret-position="1547">
+          <caret line="95" column="5" lean-forward="false" selection-start-line="95" selection-start-column="5" selection-end-line="95" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/CSVMaker.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/POSTagging.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1458">
-          <caret line="85" column="39" lean-forward="false" selection-start-line="85" selection-start-column="39" selection-end-line="85" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ZScores.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1152">
-          <caret line="66" column="27" lean-forward="false" selection-start-line="66" selection-start-column="27" selection-end-line="66" selection-end-column="27" />
+        <state relative-caret-position="1955">
+          <caret line="115" column="58" lean-forward="false" selection-start-line="115" selection-start-column="58" selection-end-line="115" selection-end-column="58" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -817,13 +1145,99 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/H4LVD.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="163" column="8" lean-forward="false" selection-start-line="163" selection-start-column="8" selection-end-line="163" selection-end-column="8" />
+        <state relative-caret-position="3026">
+          <caret line="178" column="0" lean-forward="false" selection-start-line="178" selection-start-column="0" selection-end-line="178" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MiscFeatures.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="159" column="59" lean-forward="true" selection-start-line="159" selection-start-column="59" selection-end-line="159" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>fyp</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: org.apache.commons:commons-csv:1.5</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

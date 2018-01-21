@@ -47,9 +47,10 @@ public class DocumentMaker {
                     FileWriter fstream = new FileWriter("user_statuses/"+record.get("#AUTHID")+".txt", true); //true tells to append data.
                     out = new BufferedWriter(fstream);
                     String line = record.get("STATUS");
-                    if(line.charAt(line.length()-1) !='.' && line.charAt(line.length()-1) !='!' && line.charAt(line.length()-1) !='?'){
-                        out.write(record.get("STATUS")+".");
-                    }
+//                    if(line.charAt(line.length()-1) !='.' && line.charAt(line.length()-1) !='!' && line.charAt(line.length()-1) !='?'){
+//                        line = record.get("STATUS")+".";
+//                    }
+                    out.write(line);
                 }
                 catch (IOException e)
                 {
@@ -68,16 +69,6 @@ public class DocumentMaker {
     }
 
     public static void main(String[] args) {
-//        Iterator it = getUserStatuses().entrySet().iterator();
-//        while (it.hasNext()) {
-//            Map.Entry pair = (Map.Entry)it.next();
-//            ArrayList<String> statuses = (ArrayList) pair.getValue();
-//            System.out.println((String) pair.getKey());
-//
-//            for(int i=0; i<statuses.size(); i++){
-//                System.out.println(statuses.get(i));
-//            }
-//            it.remove(); // avoids a ConcurrentModificationException
-//        }
+        writeToFiles();
     }
 }

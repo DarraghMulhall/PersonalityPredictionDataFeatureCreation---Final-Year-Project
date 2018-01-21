@@ -33,19 +33,6 @@ public class ZScores {
     }
 
 
-//    public static HashMap<String, Object> zScores(HashMap<String, Double> map){
-//        double mean = mean(map);
-//        double sd = standardDeviation(map);
-//        HashMap<String, Object> zScoresPerUser = new HashMap<>();
-//        DecimalFormat df = new DecimalFormat("#.##");
-//
-//        for (Map.Entry<String, Double> entry: map.entrySet()) {
-//            double score = (entry.getValue() - mean)/sd;
-//            score = Double.valueOf(df.format(score));
-//            zScoresPerUser.put(entry.getKey(), score);
-//        }
-//        return  zScoresPerUser;
-//    }
     public static double[][] zScores(double[][] values){
         double[] means = mean(values);
 

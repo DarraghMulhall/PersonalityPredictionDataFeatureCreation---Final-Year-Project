@@ -4,7 +4,7 @@ import org.apache.commons.csv.CSVRecord;
 import java.io.*;
 import java.util.*;
 
-public class CSVMaker<T> {
+public class CSVMaker {
 
     public static HashMap<String, List<String>> uniqueRowsFromCSV(String csvFile){
         HashMap<String, List<String>> rows = new HashMap();
@@ -25,7 +25,6 @@ public class CSVMaker<T> {
 
                 List<String> fields = new ArrayList<String>();
                 while(it.hasNext()){
-
                     fields.add((String) it.next());
                 }
                 rows.put(user, fields);
@@ -71,7 +70,7 @@ public class CSVMaker<T> {
         } catch (IOException e) {
             e.printStackTrace();
         }
-        header = header.replaceAll(",\"STATUS\"", "");
+        header = header.replaceAll(",STATUS", "");
         return header;
     }
 
@@ -82,10 +81,7 @@ public class CSVMaker<T> {
             BufferedWriter out = null;
 
             String header = getHeader(inputCSV)+newHeaderCols;
-            Iterable<CSVRecord> records = getRowsFromCSV(inputCSV);
             System.out.println(header);
-
-            //HashMap<String, Ob> userValences = anewUserValence();
 
             FileWriter fstream = new FileWriter(outputCSV, true); //true tells to append data.
             out = new BufferedWriter(fstream);
@@ -95,32 +91,32 @@ public class CSVMaker<T> {
 
             HashMap<String, List<String>> rows = uniqueRowsFromCSV(inputCSV);
 
-            Iterator it = rows.entrySet().iterator();
-
+            File dir = new File("user_statuses");
+            File[] directoryListing = dir.listFiles();
+            int pos = 0;
+            String user = "";
             int userNum = 0;
-            while (it.hasNext()) {
-                Map.Entry pair = (Map.Entry)it.next();
+            for (File file : directoryListing) {
+                pos = file.getName().lastIndexOf(".");
+                user = file.getName().substring(0, pos);
                 String str = "";
-                str += pair.getKey();
+                str += user;
+                System.out.println(str);
 
-                List<String> values = (List) pair.getValue();
-                for(int i=0; i<values.size(); i++){
-                    str+= ","+values.get(i);
+                List<String> values = rows.get(user);
+                for (int i = 0; i < values.size(); i++) {
+                    str += "," + values.get(i);
                 }
 
-
-                for(int j=0; j<newData[userNum].length; j++){
-                    str+=","+newData[userNum][j];
+                for (int j = 0; j < newData[userNum].length; j++) {
+                    str += "," + newData[userNum][j];
                 }
-
 
                 out.write(str);
                 out.newLine();
-                it.remove(); // avoids a ConcurrentModificationException
                 userNum++;
             }
             out.close();
-
         } catch (IOException e) {
             e.printStackTrace();
         }
