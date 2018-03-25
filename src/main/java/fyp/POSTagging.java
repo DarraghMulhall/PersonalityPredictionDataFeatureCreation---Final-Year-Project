@@ -1,3 +1,5 @@
+package fyp;
+
 import opennlp.tools.postag.POSModel;
 import opennlp.tools.postag.POSTaggerME;
 
@@ -13,7 +15,17 @@ public class POSTagging {
      "RB", "TO", "VB"};
 
 
-    public static double[][] tagging(){
+    public static String columns(){
+        StringBuffer result = new StringBuffer();
+        for (int i = 0; i < posTags.length; i++) {
+            result.append("," + posTags[i]);
+        }
+        String newHeader = result.toString();
+        return newHeader;
+    }
+
+
+    public static double[][] tagging(HashMap<String, Integer> userStatusCount){
 
         POSModel model = null;
         try {
@@ -30,7 +42,6 @@ public class POSTagging {
         File dir = new File("user_statuses");
         File[] directoryListing = dir.listFiles();
         double[][] values = new double[directoryListing.length][posTags.length];
-        HashMap<String, Integer> userStatusCount = DocumentMaker.getUserStatusCount();
 
         int userNum = 0;
         for (File file : directoryListing) {
@@ -101,18 +112,14 @@ public class POSTagging {
 
 
 
-    public static void main(String[] args){
+    public static double[][] values(HashMap<String, Integer> userStatusCount){
 
-        StringBuffer result = new StringBuffer();
-        //result.append( optional separator );
-        for (int i = 0; i < posTags.length; i++) {
-            result.append("," + posTags[i]);
-        }
-        String newHeader = result.toString();
 
-        double[][] values = tagging();
+
+        double[][] values = tagging(userStatusCount);
         double[][] zScoreVals = ZScores.zScores(values);
         //HashMap<String, Object> tagMap = numDistinctTagsPerUser(map);
-       CSVMaker.writeToCSV("valence_arousal_dom.csv", "pos.csv", zScoreVals, newHeader);
+       //CSVMaker.writeToCSV("aff_features.csv", "pos_features.csv", zScoreVals, newHeader);
+        return zScoreVals;
     }
 }

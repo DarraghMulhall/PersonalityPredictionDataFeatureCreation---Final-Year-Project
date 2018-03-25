@@ -1,3 +1,5 @@
+package fyp;
+
 import org.apache.commons.csv.CSVFormat;
 import org.apache.commons.csv.CSVRecord;
 
@@ -48,6 +50,7 @@ public class CSVMaker {
         } catch (IOException e) {
             e.printStackTrace();
         }
+
         return records;
     }
 
@@ -83,13 +86,15 @@ public class CSVMaker {
             String header = getHeader(inputCSV)+newHeaderCols;
             System.out.println(header);
 
+            HashMap<String, List<String>> rows = uniqueRowsFromCSV(inputCSV);
+
             FileWriter fstream = new FileWriter(outputCSV, true); //true tells to append data.
             out = new BufferedWriter(fstream);
 
             out.write(header);
             out.newLine();
 
-            HashMap<String, List<String>> rows = uniqueRowsFromCSV(inputCSV);
+
 
             File dir = new File("user_statuses");
             File[] directoryListing = dir.listFiles();
@@ -101,7 +106,7 @@ public class CSVMaker {
                 user = file.getName().substring(0, pos);
                 String str = "";
                 str += user;
-                System.out.println(str);
+               // System.out.println(str);
 
                 List<String> values = rows.get(user);
                 for (int i = 0; i < values.size(); i++) {
@@ -111,7 +116,6 @@ public class CSVMaker {
                 for (int j = 0; j < newData[userNum].length; j++) {
                     str += "," + newData[userNum][j];
                 }
-
                 out.write(str);
                 out.newLine();
                 userNum++;

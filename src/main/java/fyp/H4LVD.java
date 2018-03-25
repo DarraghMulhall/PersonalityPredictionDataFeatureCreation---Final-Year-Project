@@ -1,3 +1,5 @@
+package fyp;
+
 import java.io.*;
 import java.nio.file.Files;
 import java.nio.file.Paths;
@@ -5,6 +7,18 @@ import java.text.DecimalFormat;
 import java.util.*;
 
 public class H4LVD {
+
+
+    public static String columns(){
+        String[] categories = getCategories();
+        //making new additions to csv header
+        StringBuffer result = new StringBuffer();
+        for (int i = 0; i < categories.length; i++) {
+            result.append("," + categories[i]);
+        }
+        String newHeader = result.toString();
+        return newHeader;
+    }
 
 
     public static String[] getCategories(){
@@ -84,14 +98,13 @@ public class H4LVD {
     }
 
 
-    public static double[][] userCategories(){
+    public static double[][] userCategories(HashMap<String, Integer> userStatusCount){
         HashMap<String, String[]> wordsAndCategories = wordWithCategories();
 
         File dir = new File("user_statuses");
         File[] directoryListing = dir.listFiles();
         String[] categories = getCategories();
         double[][] values = new double[directoryListing.length][categories.length];
-        HashMap<String, Integer> userStatusCount = DocumentMaker.getUserStatusCount();
 
         int userNum = 0;
         for (File file : directoryListing) {
@@ -115,10 +128,8 @@ public class H4LVD {
             int pos = file.getName().lastIndexOf(".");
             String user = file.getName().substring(0, pos);
 
-            System.out.println(user);
 
             int userStatusNum = userStatusCount.get(user);
-            System.out.println(file.getName() + " "+userStatusNum);
             double additive = 1.0/userStatusNum;
             DecimalFormat df = new DecimalFormat("#.##");
             additive = Double.valueOf(df.format(additive));
@@ -142,14 +153,9 @@ public class H4LVD {
         return values;
     }
 
-
-    public static void main(String[] args){
-        double[][] values = userCategories();
-
-
-        HashMap<String, String[]> map2 = wordWithCategories();
-
-
+    //called in project specific to facebook or twitter
+    public static double[][] values(HashMap<String, Integer> userStatusCount){
+        double[][] values = userCategories(userStatusCount);
 
         BufferedReader br = null;
         try {
@@ -158,26 +164,9 @@ public class H4LVD {
             e.printStackTrace();
         }
 
-        String[] categories = getCategories();
-
-        //making new additions to csv header
-        StringBuffer result = new StringBuffer();
-        for (int i = 0; i < categories.length; i++) {
-            result.append("," + categories[i]);
-        }
-        String newHeader = result.toString();
-
         double[][] zScoreVals = ZScores.zScores(values);
+        return zScoreVals;
 
-        System.out.println(newHeader);
-        for(int i=0; i<values.length; i++){
-            for(int j=0; j<values[i].length; j++){
-                System.out.print(values[i][j] + " ");
-            }
-            System.out.println("\n");
-        }
-
-
-        CSVMaker.writeToCSV("pos.csv", "h4lvd.csv", zScoreVals, newHeader);
+        //CSVMaker.writeToCSV("pos_features.csv", "h4lvd_features.csv", zScoreVals, newHeader);
     }
 }

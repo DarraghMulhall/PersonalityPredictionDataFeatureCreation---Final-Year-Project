@@ -1,4 +1,4 @@
-import org.apache.commons.csv.CSVRecord;
+package fyp;
 
 import java.io.*;
 import java.nio.file.Files;
@@ -10,21 +10,14 @@ import java.util.regex.Pattern;
 
 public class MiscFeatures {
 
+
+    public static String columns(){
+        return ",Total_Status_Count, Percentage_in_Caps, Words_per_Status, " +
+               "Sentences_per_Status, Words_per_Sentence, Average_Status_Length, Punctuation, Swear_Words";
+    }
+
+
     public static double userTotalStatusCounts(String user, HashMap<String, Integer> statusCounts){
-//        HashMap<String, Integer> statusCounts = DocumentMaker.getUserStatusCount();
-//        File dir = new File("user_statuses");
-//        File[] directoryListing = dir.listFiles();
-//        double[][] values = new double[directoryListing.length][1];
-//
-//        int userNum = 0, pos = 0;
-//        String user = "";
-//
-//        for (File file : directoryListing) {
-//            pos = file.getName().lastIndexOf(".");
-//            user = file.getName().substring(0, pos);
-//            values[userNum++][0] = (double) statusCounts.get(user);
-//        }
-//        return values;
         return (double) statusCounts.get(user);
     }
 
@@ -116,16 +109,14 @@ public class MiscFeatures {
                 }
             }
         }
-        System.out.println(count + " " + (double) count / (double) words.length);
         return (double) count / (double) words.length;
     }
 
 
 
-    public static double[][] obtainMiscFeatureValues(int numOfFeatures){
+    public static double[][] obtainMiscFeatureValues(int numOfFeatures, HashMap<String, Integer> userStatusCount){
         File dir = new File("user_statuses");
         File[] directoryListing = dir.listFiles();
-        HashMap<String, Integer> statusCounts = DocumentMaker.getUserStatusCount();
         String statusText;
         int pos = 0;
         String user = "";
@@ -143,21 +134,21 @@ public class MiscFeatures {
 
 
             //add total status count feature
-            values[userNum][0] = userTotalStatusCounts(user, statusCounts);
+            values[userNum][0] = userTotalStatusCounts(user, userStatusCount);
 
             //add number of upper case words in the combined status text
             Pattern pattern = Pattern.compile("^[A-Z][A-Z]+[,.!?]*");
             values[userNum][1] = capitalizedWords(statusText, pattern);
 
             //add average words per status
-            values[userNum][2] = wordCountAverageAcrossStatuses(user, statusCounts, statusText);
+            values[userNum][2] = wordCountAverageAcrossStatuses(user, userStatusCount, statusText);
 
             //add average number of sentences per status
-            values[userNum][3] = averageSentencesPerStatus(user, statusCounts, statusText);
+            values[userNum][3] = averageSentencesPerStatus(user, userStatusCount, statusText);
 
             values[userNum][4] = averageWordsPerSentence(statusText);
 
-            values[userNum][5] = averageLengthPerStatus(user, statusCounts, statusText);
+            values[userNum][5] = averageLengthPerStatus(user, userStatusCount, statusText);
 
             values[userNum][6] = punctuationCount(statusText);
 
@@ -170,15 +161,16 @@ public class MiscFeatures {
 
 
 
-    public static void main(String[] args){
+    public static double[][] values(HashMap<String, Integer> userStatusCount){
         File dir = new File("user_statuses");
         File[] directoryListing = dir.listFiles();
-        double[][] values = obtainMiscFeatureValues(8);
+        double[][] values = obtainMiscFeatureValues(8, userStatusCount);
 
         double[][] zScoreVals = ZScores.zScores(values);
-        CSVMaker.writeToCSV("h4lvd.csv", "misc.csv", zScoreVals, ",Total_Status_Count, Percentage_in_Caps, Words_per_Status, Sentences_per_" +
-        "Status, Words_per_Sentence, Average_Status_Length, Punctuation, Swear_Words");
-
+        //CSVMaker.writeToCSV("h4lvd_features.csv", "features.csv", zScoreVals, ",Total_Status_Count, Percentage_in_Caps, Words_per_Status, " +
+         //       "Sentences_per_" +
+        //"Status, Words_per_Sentence, Average_Status_Length, Punctuation, Swear_Words");
+        return zScoreVals;
     }
 
 

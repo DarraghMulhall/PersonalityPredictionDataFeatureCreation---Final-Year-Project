@@ -1,6 +1,6 @@
+package fyp;
+
 import java.text.DecimalFormat;
-import java.util.HashMap;
-import java.util.Map;
 
 public class ZScores {
 
